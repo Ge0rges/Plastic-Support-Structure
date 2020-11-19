@@ -56,8 +56,5 @@ Thanks to Prof. Steve Mann for providing some computational resources.
 
 Thanks to bjsowa/DEN for inital fork structure.
 
-Thanks to mikacho for guidance on the resource constraining function.
-
-
 ## Citation
-Submitted to JMLR.
+Submitted for review.
