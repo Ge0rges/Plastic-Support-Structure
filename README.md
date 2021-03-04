@@ -8,7 +8,7 @@
 ## Abstract
 We propose a novel approach to lifelong learning, introducing a compact encapsulated support structure which endows a network with the capability to expand its capacity as needed to learn new tasks while preventing the loss of learned tasks. This is achieved by splitting neurons with high semantic drift and constructing an adjacent network to encode the new tasks at hand. We call this the Plastic Support Structure (PSS), it is a compact structure to learn new tasks that cannot be efficiently encoded in the existing structure of the network. We validate the PSS on public datasets against existing lifelong learning architectures, showing it performs similarly to them but without prior knowledge of the task and in some cases with fewer parameters and in a more understandable fashion where the PSS is an encapsulated container for specific features related to specific tasks, thus making it an ideal "add-on" solution for endowing a network to learn more tasks.
 
-## Detailed High Level Process
+## High Level Process
 When a neuron has high semantic drift after training a new task, duplicate it and revert it to it's old weight value. 
 For each layer in which a neuron has not been split, add a new neuron.
 Connect all new neurons together, and in the last hidden layer to the appropriate output neuron.
